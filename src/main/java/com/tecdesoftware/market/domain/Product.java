@@ -1,6 +1,6 @@
 package com.tecdesoftware.market.domain;
 
-import jdk.jfr.Category;
+import com.tecdesoftware.market.domain.Category;
 
 public class Product {
     private int productId;
