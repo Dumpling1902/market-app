@@ -12,6 +12,8 @@ build/
 .project
 .settings
 .springBeans
+.properties
+!src/main/resources/application.properties
 .sts4-cache
 bin/
 !**/src/main/**/bin/

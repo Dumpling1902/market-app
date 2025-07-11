@@ -8,6 +8,7 @@ public class Purchase {
     private String clientId;
     private LocalDateTime date;
     private String paymentMethod;
+    private String comment;
     private String state;
     private List<PurchaseItem> items;
 
@@ -55,7 +56,17 @@ public class Purchase {
         return items;
     }
 
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
     public void setItems(List<PurchaseItem> items) {
         this.items = items;
+
+
     }
 }
