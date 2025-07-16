@@ -1,10 +1,8 @@
 package com.tecdesoftware.market.domain.service;
-
 import com.tecdesoftware.market.domain.Product;
 import com.tecdesoftware.market.domain.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
